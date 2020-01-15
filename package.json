@@ -1,0 +1,21 @@
+{
+  "name": "thirdpartyoauthapp",
+  "version": "1.0.0",
+  "description": "Third party oauth app to consume API from other app via oauth 2.0",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server",
+    "server": "nodemon server"
+  },
+  "author": "Henry Nguyen",
+  "license": "ISC",
+  "dependencies": {
+    "config": "^3.2.4",
+    "express": "^4.17.1",
+    "request": "^2.88.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}

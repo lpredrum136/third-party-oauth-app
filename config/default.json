@@ -1,0 +1,6 @@
+{
+  "CLIENT_ID": "53dab8e85d75133b65710ca545191a0e",
+  "CLIENT_SECRET": "08bf3f163b82b69bd7bc662b3f948420",
+  "SCOPES": "create read",
+  "REDIRECT_URI": "http://localhost:8080/oauth/authorise"
+}

@@ -30,7 +30,7 @@ router.post('/', async (req, res) => {
     const response = await axios.post(
       'http://localhost/cioauth/api/app/exchange_token',
       {
-        grant_type: 'authorisation_code',
+        grant_type: 'authorization_code',
         authorisation_code,
         client_id,
         client_secret,

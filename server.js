@@ -2,8 +2,9 @@ const express = require('express');
 const cors = require('cors');
 
 // Routes
-const posts = require('./routes/api/posts');
+// const posts = require('./routes/api/posts');
 const oauth = require('./routes/api/oauth');
+const ropcOauth = require('./routes/api/ropc-oauth');
 
 // Start app
 const app = express();
@@ -13,8 +14,9 @@ app.use(express.json());
 app.use(cors());
 
 // Define routes
-app.use('/api/posts', posts);
+// app.use('/api/posts', posts);
 app.use('/api/oauth', oauth);
+app.use('/api/ropc-oauth', ropcOauth);
 
 const PORT = process.env.PORT || 5000;
 
